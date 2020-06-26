@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		6FAC017624A65ED700FAF955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC017524A65ED700FAF955 /* AppDelegate.swift */; };
 		6FAC017824A65ED700FAF955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC017724A65ED700FAF955 /* ContentView.swift */; };
-		6FAC017A24A65ED700FAF955 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC017924A65ED700FAF955 /* Experience.rcproject */; };
 		6FAC017C24A65EDA00FAF955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC017B24A65EDA00FAF955 /* Assets.xcassets */; };
 		6FAC017F24A65EDA00FAF955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC017E24A65EDA00FAF955 /* Preview Assets.xcassets */; };
 		6FAC018224A65EDA00FAF955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC018024A65EDA00FAF955 /* LaunchScreen.storyboard */; };
 		6FAC018D24A65EDA00FAF955 /* RealityKitVideoLocalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC018C24A65EDA00FAF955 /* RealityKitVideoLocalTests.swift */; };
 		6FAC019824A65EDA00FAF955 /* RealityKitVideoLocalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC019724A65EDA00FAF955 /* RealityKitVideoLocalUITests.swift */; };
+		6FAC01A624A6711200FAF955 /* DemoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6FAC01A524A6711200FAF955 /* DemoVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		6FAC017224A65ED700FAF955 /* RealityKitVideoLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealityKitVideoLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC017524A65ED700FAF955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FAC017724A65ED700FAF955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6FAC017924A65ED700FAF955 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		6FAC017B24A65EDA00FAF955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FAC017E24A65EDA00FAF955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FAC018124A65EDA00FAF955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		6FAC019324A65EDA00FAF955 /* RealityKitVideoLocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealityKitVideoLocalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC019724A65EDA00FAF955 /* RealityKitVideoLocalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityKitVideoLocalUITests.swift; sourceTree = "<group>"; };
 		6FAC019924A65EDA00FAF955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FAC01A524A6711200FAF955 /* DemoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DemoVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				6FAC017524A65ED700FAF955 /* AppDelegate.swift */,
 				6FAC017724A65ED700FAF955 /* ContentView.swift */,
-				6FAC017924A65ED700FAF955 /* Experience.rcproject */,
+				6FAC01A524A6711200FAF955 /* DemoVideo.mp4 */,
 				6FAC017B24A65EDA00FAF955 /* Assets.xcassets */,
 				6FAC018024A65EDA00FAF955 /* LaunchScreen.storyboard */,
 				6FAC018324A65EDA00FAF955 /* Info.plist */,
@@ -241,6 +241,7 @@
 			files = (
 				6FAC018224A65EDA00FAF955 /* LaunchScreen.storyboard in Resources */,
 				6FAC017F24A65EDA00FAF955 /* Preview Assets.xcassets in Resources */,
+				6FAC01A624A6711200FAF955 /* DemoVideo.mp4 in Resources */,
 				6FAC017C24A65EDA00FAF955 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +269,6 @@
 			files = (
 				6FAC017824A65ED700FAF955 /* ContentView.swift in Sources */,
 				6FAC017624A65ED700FAF955 /* AppDelegate.swift in Sources */,
-				6FAC017A24A65ED700FAF955 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
